@@ -248,6 +248,7 @@ a {
 .list-table > li {
   border-bottom: 1px solid #eff0f1;
   display: flex;
+  padding: 10px 0;
   text-align: left;
   width: 100%;
   clear: both;
@@ -256,4 +257,28 @@ a {
 .list-table > li > strong {
   display: inline-block;
   width: 15%;
+}
+
+.article {
+  border-bottom: 1px solid #eff0f1;
+  display: flex;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+.article:first-child {
+  margin-top: 0;
+}
+
+.article > .img-block {
+  background-color: #eff0f1;
+  display: inline-block;
+  border-radius: 50%;
+  height: 150px;
+  padding: 1px;
+  width: 150px;
+}
+
+.article > .content {
+  margin-left: 20px;
 }
